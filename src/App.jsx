@@ -2,14 +2,14 @@ import { Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import Navbar from "./components/Navbar";
 import ProtectedRoute from "./components/ProtectedRoute";
-import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import ReviewListPage from "./pages/ReviewListPage";
-import ReviewPage from "./pages/ReviewPage";
-import NewReviewPage from "./pages/NewReviewPage";
-import UpdateReviewPage from "./pages/UpdateReviewPage";
-import ProfilePage from "./pages/ProfilePage";
+import HomePage from "./Pages/HomePage";
+import LoginPage from "./Pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
+import ReviewListPage from "./Pages/ReviewListPage";
+import ReviewPage from "./Pages/ReviewPage";
+import NewReviewPage from "./Pages/NewReviewPage";
+import UpdateReviewPage from "./Pages/UpdateReviewPage";
+import ProfilePage from "./Pages/ProfilePage";
 import "./index.css";
 
 function App() {
